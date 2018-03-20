@@ -4,7 +4,7 @@ const assert = require("assert"),
 
 
 
-describe("creating records", () => {
+describe("\"Creating\" User Test", () => {
   it("saves a user", (done) => {
 
     const joeTest = new User({name:"JoeTest"});
