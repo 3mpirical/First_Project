@@ -4,7 +4,7 @@
   "description": "the first project in Stephen Grider's Udemy course on mongodb.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec 'mocha -R min'"
   },
   "repository": {
     "type": "git",
