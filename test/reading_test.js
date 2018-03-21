@@ -18,4 +18,12 @@ describe("\"Reading\" User Test", () => {
         done();
       });
   });
+
+  it("find a user with a particular id", (done) => {
+    User.findOne({ _id: joeTest._id })
+      .then((returnedUser) => {
+        assert(returnedUser.name === "joeTest");
+        done();
+      });
+  });
 });

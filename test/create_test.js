@@ -16,9 +16,3 @@ describe("\"Creating\" User Test", () => {
       });
   });
 });
-
-describe("second test", () => {
-  it("testing 1,2,3 :)", () => {
-    assert( true === true);
-  });
-});
